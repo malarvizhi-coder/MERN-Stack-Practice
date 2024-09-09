@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    background-color: rgb(241, 234, 234);
+}
+.tableWrap{
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 7px;
+}
+
+thead td{
+    background-color: rgb(62, 144, 108);
+    color: white;
+    font-weight: 800;
+    height: 60px;
+}
+
+td{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    height: 60px;
+}
+
+tr{
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(2) td {
+    color:rgb(62, 144, 108);
+    font-weight: 800;
+    background-color: #f2ecec;
+}
+

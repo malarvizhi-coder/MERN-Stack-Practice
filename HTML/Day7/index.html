@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h1>Form Tasks</h1>
+    <h2>Form 1</h2>
+    <div>
+        <table>
+            <tr>
+                <td><label>Descriptive Name</label></td>
+                <td><input type="text" placeholder="Field 1"></td>
+            </tr>
+            <tr>
+                <td><label>Field Name</label></td>
+                <td><input type="text" placeholder="Field 1"></td>
+            </tr>
+            <tr>
+                <td><label>Tool Tip Text</label></td>
+                <td><input type="text" placeholder="Field 1"></td>
+            </tr>
+            <tr>
+                <td><label>List</label></td>
+                <td><select>
+                    <option value="(Custom)"></option>
+                    <option value="">(Custom)</option>
+                    <option value="">(Custom)</option>
+                </select></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Allow Selection</legend>
+                        <input type="radio">
+                        <label>Only one</label>
+                        <br>
+                        <input type="radio">
+                        <label>More than one</label>
+                        <br>
+                        <input type="checkbox">
+                        <label>A selection is required</label>
+                        <br>
+                        <input type="checkbox">
+                        <label>First item is not a valid selection</label>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Appearance</legend>
+                        <input type="radio">
+                        <label>Vertical List</label>
+                        <br>
+                        <input type="radio">
+                        <label>Horizontal List</label>
+                        <br>
+                        <input type="radio">
+                        <label>List Box</label>
+                        <br>
+                        <input type="radio">
+                        <label>Drop List</label>
+                        <br>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        <center>
+                        <button>OK</button>
+                        </center>
+                    </td>
+                <td>
+                    <center>
+                    <button>Cancel</button>
+                    </center>
+                </td>
+        </tr>
+        </table>
+    </div>
+    <br><br>
+
+    <h2>Form 2</h2>
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Sex</td>
+            <td>
+                <input type="radio"><label>Male</label>
+                <br>
+                <input type="radio"><label>Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Eye Color</td>
+            <td><select>
+                <option value="Green"></option>
+                <option value="">(Custom)</option>
+                <option value="">(Custom)</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Check all that apply</td>
+            <td>
+                <input type="checkbox">
+                <label>Over 6 feet tall</label>
+                <br>
+                <input type="checkbox">
+                <label>Over 200 pounds</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Describe your athletic ability</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea cols="50" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <button>Enter my information</button>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h2>Form 3</h2>
+    <div>
+        <label>Your Name (required)</label><br>
+        <input type="text">
+        <br><br>
+
+        <label>Your Email (required)</label><br>
+        <input type="text">
+        <br><br>
+
+        <label>Subject</label><br>
+        <input type="text">
+        <br><br>
+
+        <label>Your Message</label><br>
+        <textarea cols="50" rows="5"></textarea>
+        <br><br>
+
+        <label>Cover Letter</label><br>
+        <input type="button" value="Browse...">
+        <label>No file Selected.</label>
+
+        <br><br>
+
+        <label>Resume</label><br>
+        <input type="button" value="Browse...">
+        <label>No file Selected.</label>
+
+        <br><br>
+
+        <button>Send</button>
+    </div>
+    <br><br>
+
+    <h2>Form 4</h2>
+    <div style="width: 420px;">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>Name:</label><input type="text"><br>
+            <label>Email:</label><input type="text"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label>How did you Hear about us ?</label>
+            <select>
+                <option>Google</option>
+                <option>Google</option>
+                <option>Google</option>
+            </select>
+            <br>
+            <input type="radio"> <label>Yes</label>
+            <input type="radio"> <label>No</label>
+            <input type="radio"> <label>Maybe</label>
+            <br>
+            <label>Comments:</label><br>
+            <textarea cols="50" rows="5"></textarea>
+            <br>
+            <input type="checkbox">
+            <label>Sign me up for email updates</label>
+            <br>
+            <button>Submit review</button>
+        </fieldset>
+    </div>
+    <br><br>
+
+    <h2>Form 5</h2>
+    <div style="width: 420px;">
+        <fieldset>
+            <legend>Name</legend>
+            <label>First Name</label><br><input type="text"><br>
+            <label>Last Name</label><br><input type="text"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Other Questions</legend>
+            <label>Choose a Drink:</label><br>
+            <input type="radio"><label>Coffee</label><br>
+            <input type="radio"><label>Tea</label><br>
+            <input type="radio"><label>Hot Chocolate</label><br>
+            <br>
+
+            <label>What ice cream do you like?</label><br>
+            <input type="checkbox"><label>Chocolate</label><br>
+            <input type="checkbox"><label>Chocolate Pudding</label><br>
+            <input type="checkbox"><label>Chocolate Peanut Butter</label><br>
+            <input type="checkbox"><label>Vanilla</label><br>
+            <input type="checkbox"><label>Strawberry</label><br>
+
+            <br>
+
+            <label>Select a school</label><br>
+            <select>
+                <option>Harvard</option>
+                <option>Harvard</option>
+                <option>Harvard</option>
+            </select>
+            <br><br>
+
+            <label>Please provide comments:</label>
+            <textarea cols="50" rows="6"></textarea>
+            <br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </div>
+    <br><br>
+
+    <h2>Form 6</h2>
+    <div style="width: 420px;">
+        <table>
+            <tr>
+                <td>Username :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>City of Employment :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Web Server :</td>
+                <td><select>
+                    <option>--Choose a server--</option>
+                    <option>--Choose a server--</option>
+                    <option>--Choose a server--</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Please specify your role :</td>
+                <td>
+                    <input type="radio"><label>Admin</label><br>
+                    <input type="radio"><label>Engineer</label><br>
+                    <input type="radio"><label>Manager</label><br>
+                    <input type="radio"><label>Guest</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Single sign-on to the following</td>
+                <td>
+                    <input type="checkbox"><label>Mail</label><br>
+                    <input type="checkbox"><label>Payroll</label><br>
+                    <input type="checkbox"><label>Self-service</label><br>
+                </td>
+            </tr>
+        </table>
+        <center>
+            <button>Login</button>
+            <button>Reset</button>
+        </center>
+    </div>
+    <br><br>
+
+    <h2>Form 7</h2>
+    <div style="width: 700px;">
+        <h3>Zoo Keeper Application Form</h3>
+        <i>Please complete the form. Mandatory fields are marked with a *</i>
+        <br>
+        <fieldset>
+            <legend>CONTACT DETAILS</legend>
+            <table>
+                <tr>
+                    <td><label>Name*</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Telephone</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Email*</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <table>
+                <tr>
+                    <td><label>*Age</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <select>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>When did you first know you
+                        wanted to be a zoo keeper?</label></td>
+                    <td><textarea cols="40" rows="5" style="overflow: scroll;"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>PICK YOUR FAVORITE ANIMALS</legend>
+            <div>
+                <input type="checkbox"><label>Zebra</label>
+                <input type="checkbox"><label>Cat</label>
+                <input type="checkbox"><label>Anaconda</label>
+                <input type="checkbox"><label>Human</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox"><label>Elephant</label>
+                <input type="checkbox"><label>Wildebeest</label>
+                <input type="checkbox"><label>Pigeon</label>
+                <input type="checkbox"><label>Crab</label>
+            </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit Application">
+    </div>
+    <br><br>
+
+    <h2>Form 8</h2>
+    <div style="width: 1000px;">
+    <table>
+        <tr>
+            <td>
+                <div style="width: 500px;">
+                    <table>
+                        <tr>
+                            <td>First Name</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td>
+                                <select>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td><input type="date"></td>
+                        </tr>
+                    </table>
+                    <p>Medical Information</p>
+                    <table>
+                        <tr>
+                            <td>Hospital Preferance</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Insurance Company</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Policy Number</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Physician's Name</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Allergies (if any)</td>
+                            <td>
+                                <textarea cols="30" rows="4"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+
+            <td>
+                <div style="width: 500px;">
+                    <p><underline>Emergency Contact info</underline></p>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Relationship</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><textarea cols="30" rows="4"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>State</td>
+                            <td><select>
+                                <option>--Choose a State--</option>
+                                <option>--Choose a State--</option>
+                                <option>--Choose a State--</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td><select>
+                                <option>--Choose a Country--</option>
+                                <option>--Choose a Country--</option>
+                                <option>--Choose a Country--</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Home Phone</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Work Phone</td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <center>
+        <button>Submit</button>
+        <button>Reset</button>
+    </center>
+    </div>
+    <br><br>
+
+    <h2>Form 9</h2>
+    <div>
+        <h2>Signup Form</h2>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Repeat Password</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td> What are your Interests ?</td>
+                <td>
+                <input type="checkbox"><label>Comics</label><br>
+                <input type="checkbox"><label>Sports</label><br>
+                <input type="checkbox"><label>Makeup</label><br>
+                </td>
+            </tr><tr>
+                <td>Hoin our mailing list ?</td>
+                <td>
+                <input type="radio"><label>Yes</label><br>
+                <input type="radio"><label>No</label><br>
+                </td>
+            </tr><tr>
+                <td>Comments</td>
+                <td>
+                    <textarea cols="30" rows="4"></textarea>
+                </td>
+            </tr>
+        </table>
+        <button>Sign up Now</button>
+    </div>
+    <br><br>
+
+    <h2>Form 10</h2>
+    <div>
+        <h2>Login Here</h2>
+        <label>Username : </label><input type="text"><br><br>
+        <label>Password :  </label><input type="text"><br><br>
+        <input type="button" value="Login">
+        <label>Not a Member ?</label><a href="#">Register</a>
+    </div>
+    <br><br>
+
+</body>
+</html>

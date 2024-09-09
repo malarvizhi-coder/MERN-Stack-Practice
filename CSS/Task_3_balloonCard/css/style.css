@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    background-color: gainsboro;
+}
+
+.contentWrapper{
+    width: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ballonImage{
+    width: 100%;
+    overflow: hidden;
+}
+
+.profoleContent{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.categoryTag{
+    background-color: rgb(94, 96, 228);
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 10px;
+    padding: 3px 7px;
+}
+
+.questionTag{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 18px;
+    background-color: whitesmoke;
+    margin: 15px 0;
+}
+
+.content{
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+
+.userWrap{
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+
+.boyImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.profileImage{
+    float: left;
+    background-color: whitesmoke;
+}
+
+.profileText{
+    float: left;
+    background-color: whitesmoke;
+    margin: 8px 20px;
+}
+
+.nametag{
+    font-weight: 900;
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+
+.statusTag{
+    font-size: 11px;
+    color: rgb(133, 132, 132);
+    background-color: whitesmoke;
+}

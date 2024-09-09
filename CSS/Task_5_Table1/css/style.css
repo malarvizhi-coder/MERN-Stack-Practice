@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    background-color: #efecec;
+}
+.tableWrap{
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.userPhoto{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float:left;
+}
+
+.userdetail{
+    float:left;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.userName, .profession{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profession{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.userMail, .subWork{
+    font-size: 12px;
+    color: gray;
+}
+
+.titleWrap{
+    line-height: 20px;
+}
+
+p{
+    background-color: white;
+}
+
+table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+td {
+    height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+
+tr{
+    border: 1px solid #ccc;
+}
+
+tr td:first-child{
+    width: 350px;
+}
+
+tr td:nth-child(2){
+    width: 300px;
+}
+
+tr td:nth-child(3){
+    width: 150px;
+    text-align: center;
+}
+
+tr td:nth-child(4){
+    width: 100px;
+}
+
+tr td:nth-child(5){
+    width: 100px;
+    text-align: right;
+}
+
+.tableHeaderName{
+    font-weight: bold;
+    background-color: #f0eded;
+    height: 50px;
+    font-size: 14px;
+}
+
+.tableHeader{
+    font-weight: bold;
+    background-color: #f0eded;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.activeState p{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(78, 227, 158);
+    opacity: 0.8;
+    padding: 2px 8px;
+    display: inline;
+    border-radius: 15px;
+}
+
+.pendingState p{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(252, 189, 72);
+    opacity: 0.8;
+    padding: 2px 8px;
+    display: inline;
+    border-radius: 15px;
+}
+.inactiveState p{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(250, 164, 140);
+    opacity: 0.8;
+    padding: 2px 8px;
+    display: inline;
+    border-radius: 15px;
+}
+.meetingState p{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(108, 188, 234);
+    opacity: 0.8;
+    padding: 2px 8px;
+    display: inline;
+    border-radius: 15px;
+}
+.roleState{
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+.editFeature{
+    font-size: 13px;
+    font-weight: 600;
+    color: #188ed9;
+    cursor: pointer;
+}

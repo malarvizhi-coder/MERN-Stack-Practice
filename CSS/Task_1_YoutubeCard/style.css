@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contentWrapper{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    height: 320px;
+    width: 280px;
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.icon{
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+.title{
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.content{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+.readMore{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 35px;
+    margin: 20px 30px;
+}
