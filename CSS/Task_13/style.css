@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    background: rgb(253,251,253);
+    background: linear-gradient(90deg, rgba(253,251,253,1) 0%, rgba(136,215,245,1) 35%, rgba(69,161,244,1) 100%);
+}
+.cardContainer{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 150px auto;
+}
+
+.cardContent{
+    height: 400px;
+    width: 250px;
+    overflow:hidden;
+    border-radius: 7px;
+    background: none;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    position: relative;
+
+}
+.imagepanel{
+    height: 160px;
+    width:250px;
+    padding: 0;
+}
+
+p, h3, .personPanel, .nameWrap{
+    background: none;
+    background-color: whitesmoke;
+}
+
+.category1 {
+    background-color: #55cdee;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+.category2 {
+    background-color: #e7bc23;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+.category3 {
+    background-color: #f62b07;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+.textPanel{
+    background: none;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+}
+
+h3{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 900;
+}
+.description{
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.personPanel{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.personImage {
+    height: 40px;
+    width: fit-content;
+    border-radius: 50%;
+}
+.name {
+    font-size: 13px;
+    font-weight: 900;
+}
+.activeState {
+    color: gray;
+    font-size: 11px;
+    font-weight: 500;
+}

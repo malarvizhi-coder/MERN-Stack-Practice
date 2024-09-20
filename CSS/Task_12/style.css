@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+.cardWrapper{
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    gap: 30px;
+}
+
+.cardContainer{
+    background-color: whitesmoke;
+    height: fit-content;
+    width: 265px;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.backgroundPanel1{
+    height:150px;
+    background-color: rgb(190, 62, 60);
+    position: relative;
+    border-radius: 10px;
+}
+.backgroundPanel2{
+    height:150px;
+    background-color: rgba(73, 49, 5, 0.819);
+    position: relative;
+    border-radius: 10px;
+}
+.backgroundPanel3{
+    height:150px;
+    background-color: rgb(173, 169, 168);
+    position: relative;
+    border-radius: 10px;
+}
+.ioniconHeart{
+    height: 20px;
+    width: 20px;
+    color:white;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.imagePanel{
+    position:relative;
+    margin-bottom: 100px;
+}
+.cartoonImage1{
+    height: 260px;
+    position: absolute;
+    bottom: -111px;
+    right: 57px;
+}
+.cartoonImage2{
+    height: 260px;
+    position: absolute;
+    bottom: -105px;
+    right: 18px;
+}
+.cartoonImage3{
+    height: 220px;
+    position: absolute;
+    bottom: -94px;
+    right: 70px;
+}
+.nameHeader {
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    padding: 25px 25px 10px 25px;
+}
+.departure {
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.ioniconCart{
+    height:25px;
+    width:30px;
+}
+.amountCart {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 25px 20px;
+    align-items: flex-end;
+}
+.offer {
+    color: #e21313;
+    font-size: 11px;
+    font-weight: 900;
+}
+.amount {
+    font-weight: 900;
+}
+
